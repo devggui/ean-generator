@@ -1,8 +1,8 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import JsBarcode from 'jsbarcode'
-import { useEffect, useState } from 'react'
 
 export default function Home() {
   const [currentEan, setCurrentEan] = useState('')    
@@ -80,8 +80,6 @@ export default function Home() {
             </button>
           </div>
         )}
-
-        
 
         <button 
           className="p-5 bg-[var(--Neon-Green)] bg-no-repeat bg-center rounded-full -mb-16 hover:cursor-pointer hover:opacity-70"
