@@ -10,7 +10,7 @@
 <div
   style="width:100%; display:flex; align-items:center; gap:16px" 
 >
-<img src="./preview.png" width="100%">
+<img src="./public/preview.png" width="100%">
 
 </div>
 
